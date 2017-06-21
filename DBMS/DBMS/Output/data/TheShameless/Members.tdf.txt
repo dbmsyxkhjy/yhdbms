@@ -1,0 +1,5 @@
+Sno
+Sname
+Ssex
+Sgrade
+Scourse

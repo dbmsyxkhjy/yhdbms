@@ -1,0 +1,2 @@
+readername VARCHAR 0 0 \
+readerno DOUBLE 1 1 \

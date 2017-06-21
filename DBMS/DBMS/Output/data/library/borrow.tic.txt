@@ -1,0 +1,4 @@
+bookno DOUBLE 1 1 \
+readerno DOUBLE 0 0 \
+time DOUBLE 0 0 \
+money DOUBLE 0 0 \

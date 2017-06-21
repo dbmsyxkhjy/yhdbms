@@ -1,0 +1,6 @@
+readername
+readerno
+credit
+money
+latestreading
+time

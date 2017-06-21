@@ -1,0 +1,5 @@
+bookname VARCHAR 0 0 \
+bookno DOUBLE 1 1 \
+soldmoney DOUBLE 0 0 \
+editor VARCHAR 0 0 \
+borrowtime DOUBLE 0 1 \

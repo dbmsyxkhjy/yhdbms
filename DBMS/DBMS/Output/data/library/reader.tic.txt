@@ -1,0 +1,6 @@
+readername VARCHAR 0 0 \
+readerno DOUBLE 1 1 \
+credit BOOL 0 0 \
+money DOUBLE 0 0 \
+latestreading VARCHAR 0 0 \
+time VARCHAR 0 0 \
