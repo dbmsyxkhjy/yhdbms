@@ -1,0 +1,68 @@
+﻿生成启动时间为 2017/5/24 9:14:33。
+     1>项目“C:\Users\DELL\Documents\2345截图\DBMS\DBMS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DBMS.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AppException.cpp CreateDB.cpp DBEntity.cpp DBListView.cpp DBLogic.cpp DBMS.cpp DBMSDoc.cpp DBMSView.cpp DBView.cpp DeleteDatabase.cpp MainFrm.cpp OpenDB.cpp
+         AppException.cpp
+         正在生成代码...
+         正在编译...
+         OpenDB.cpp
+     1>c:\users\dell\documents\2345截图\dbms\opendb.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         MainFrm.cpp
+         DeleteDatabase.cpp
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(58): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(59): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(76): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\dell\documents\2345截图\dbms\deletedatabase.cpp(95): warning C4996: 'rmdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _rmdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\direct.h(141) : 参见“rmdir”的声明
+         DBView.cpp
+     1>c:\users\dell\documents\2345截图\dbms\dbview.cpp(8): fatal error C1083: 无法打开包括文件: “AddRecord.h”: No such file or directory
+         DBMSView.cpp
+         DBMSDoc.cpp
+         DBMS.cpp
+     1>c:\users\dell\documents\2345截图\dbms\dbms.cpp(15): fatal error C1083: 无法打开包括文件: “AddTable.h”: No such file or directory
+         DBLogic.cpp
+     1>c:\users\dell\documents\2345截图\dbms\dblogic.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         DBListView.cpp
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(89): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(323) : 参见“access”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(98): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(102): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(104): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(109): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(114): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(137): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(323) : 参见“access”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(146): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(154): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\dell\documents\2345截图\dbms\dblistview.cpp(162): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         DBEntity.cpp
+         CreateDB.cpp
+         正在生成代码...
+     1>已完成生成项目“C:\Users\DELL\Documents\2345截图\DBMS\DBMS.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:17.16
