@@ -1,0 +1,4 @@
+classno VARCHAR 0 0 \
+student VARCHAR 0 0 \
+grade VARCHAR 0 0 \
+teacher VARCHAR 0 0 \

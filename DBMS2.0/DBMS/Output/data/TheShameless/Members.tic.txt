@@ -1,0 +1,5 @@
+Sno VARCHAR 1 1 \
+Sname VARCHAR 0 0 TheShameless
+Ssex VARCHAR 0 0 ÄÐ
+Sgrade VARCHAR 0 0 A+
+Scourse VARCHAR 0 0 Êý¾Ý¿âÊµ¼ù
